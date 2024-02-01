@@ -1,0 +1,32 @@
+{
+  "pins" : [
+    {
+      "identity" : "azure-maps-ios-sdk-distribution",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Azure/azure-maps-ios-sdk-distribution.git",
+      "state" : {
+        "revision" : "16621664d8b4033cab5a24ab7d1a7bfea0616fce",
+        "version" : "1.0.0-pre.3"
+      }
+    },
+    {
+      "identity" : "maplibre-gl-native-distribution",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/maplibre/maplibre-gl-native-distribution.git",
+      "state" : {
+        "revision" : "d524c18d8c572db72c753f88492c36b9749725e1",
+        "version" : "5.12.0"
+      }
+    },
+    {
+      "identity" : "microsoft-authentication-library-for-objc",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/AzureAD/microsoft-authentication-library-for-objc",
+      "state" : {
+        "revision" : "fec267ef6af6a7efec081f8f61c41e32bffc05c6",
+        "version" : "1.2.21"
+      }
+    }
+  ],
+  "version" : 2
+}

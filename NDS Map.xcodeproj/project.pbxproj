@@ -1,0 +1,665 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		978CE0892B6C56E500C1CB67 /* NDS_MapApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978CE0882B6C56E500C1CB67 /* NDS_MapApp.swift */; };
+		978CE08B2B6C56E500C1CB67 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978CE08A2B6C56E500C1CB67 /* ContentView.swift */; };
+		978CE08D2B6C56E700C1CB67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 978CE08C2B6C56E700C1CB67 /* Assets.xcassets */; };
+		978CE0912B6C56E700C1CB67 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 978CE0902B6C56E700C1CB67 /* Preview Assets.xcassets */; };
+		978CE09B2B6C56E800C1CB67 /* NDS_MapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978CE09A2B6C56E800C1CB67 /* NDS_MapTests.swift */; };
+		978CE0A52B6C56E800C1CB67 /* NDS_MapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978CE0A42B6C56E800C1CB67 /* NDS_MapUITests.swift */; };
+		978CE0A72B6C56E800C1CB67 /* NDS_MapUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978CE0A62B6C56E800C1CB67 /* NDS_MapUITestsLaunchTests.swift */; };
+		978CE0B52B6C579F00C1CB67 /* AzureMapsControl in Frameworks */ = {isa = PBXBuildFile; productRef = 978CE0B42B6C579F00C1CB67 /* AzureMapsControl */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		978CE0972B6C56E800C1CB67 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 978CE07D2B6C56E500C1CB67 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 978CE0842B6C56E500C1CB67;
+			remoteInfo = "NDS Map";
+		};
+		978CE0A12B6C56E800C1CB67 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 978CE07D2B6C56E500C1CB67 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 978CE0842B6C56E500C1CB67;
+			remoteInfo = "NDS Map";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		978CE0852B6C56E500C1CB67 /* NDS Map.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NDS Map.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		978CE0882B6C56E500C1CB67 /* NDS_MapApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NDS_MapApp.swift; sourceTree = "<group>"; };
+		978CE08A2B6C56E500C1CB67 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		978CE08C2B6C56E700C1CB67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		978CE08E2B6C56E700C1CB67 /* NDS_Map.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NDS_Map.entitlements; sourceTree = "<group>"; };
+		978CE0902B6C56E700C1CB67 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		978CE0962B6C56E800C1CB67 /* NDS MapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NDS MapTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		978CE09A2B6C56E800C1CB67 /* NDS_MapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NDS_MapTests.swift; sourceTree = "<group>"; };
+		978CE0A02B6C56E800C1CB67 /* NDS MapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NDS MapUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		978CE0A42B6C56E800C1CB67 /* NDS_MapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NDS_MapUITests.swift; sourceTree = "<group>"; };
+		978CE0A62B6C56E800C1CB67 /* NDS_MapUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NDS_MapUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		978CE0822B6C56E500C1CB67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				978CE0B52B6C579F00C1CB67 /* AzureMapsControl in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		978CE0932B6C56E800C1CB67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		978CE09D2B6C56E800C1CB67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		978CE07C2B6C56E500C1CB67 = {
+			isa = PBXGroup;
+			children = (
+				978CE0872B6C56E500C1CB67 /* NDS Map */,
+				978CE0992B6C56E800C1CB67 /* NDS MapTests */,
+				978CE0A32B6C56E800C1CB67 /* NDS MapUITests */,
+				978CE0862B6C56E500C1CB67 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		978CE0862B6C56E500C1CB67 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				978CE0852B6C56E500C1CB67 /* NDS Map.app */,
+				978CE0962B6C56E800C1CB67 /* NDS MapTests.xctest */,
+				978CE0A02B6C56E800C1CB67 /* NDS MapUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		978CE0872B6C56E500C1CB67 /* NDS Map */ = {
+			isa = PBXGroup;
+			children = (
+				978CE0882B6C56E500C1CB67 /* NDS_MapApp.swift */,
+				978CE08A2B6C56E500C1CB67 /* ContentView.swift */,
+				978CE08C2B6C56E700C1CB67 /* Assets.xcassets */,
+				978CE08E2B6C56E700C1CB67 /* NDS_Map.entitlements */,
+				978CE08F2B6C56E700C1CB67 /* Preview Content */,
+			);
+			path = "NDS Map";
+			sourceTree = "<group>";
+		};
+		978CE08F2B6C56E700C1CB67 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				978CE0902B6C56E700C1CB67 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		978CE0992B6C56E800C1CB67 /* NDS MapTests */ = {
+			isa = PBXGroup;
+			children = (
+				978CE09A2B6C56E800C1CB67 /* NDS_MapTests.swift */,
+			);
+			path = "NDS MapTests";
+			sourceTree = "<group>";
+		};
+		978CE0A32B6C56E800C1CB67 /* NDS MapUITests */ = {
+			isa = PBXGroup;
+			children = (
+				978CE0A42B6C56E800C1CB67 /* NDS_MapUITests.swift */,
+				978CE0A62B6C56E800C1CB67 /* NDS_MapUITestsLaunchTests.swift */,
+			);
+			path = "NDS MapUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		978CE0842B6C56E500C1CB67 /* NDS Map */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 978CE0AA2B6C56E800C1CB67 /* Build configuration list for PBXNativeTarget "NDS Map" */;
+			buildPhases = (
+				978CE0812B6C56E500C1CB67 /* Sources */,
+				978CE0822B6C56E500C1CB67 /* Frameworks */,
+				978CE0832B6C56E500C1CB67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NDS Map";
+			packageProductDependencies = (
+				978CE0B42B6C579F00C1CB67 /* AzureMapsControl */,
+			);
+			productName = "NDS Map";
+			productReference = 978CE0852B6C56E500C1CB67 /* NDS Map.app */;
+			productType = "com.apple.product-type.application";
+		};
+		978CE0952B6C56E800C1CB67 /* NDS MapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 978CE0AD2B6C56E800C1CB67 /* Build configuration list for PBXNativeTarget "NDS MapTests" */;
+			buildPhases = (
+				978CE0922B6C56E800C1CB67 /* Sources */,
+				978CE0932B6C56E800C1CB67 /* Frameworks */,
+				978CE0942B6C56E800C1CB67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				978CE0982B6C56E800C1CB67 /* PBXTargetDependency */,
+			);
+			name = "NDS MapTests";
+			productName = "NDS MapTests";
+			productReference = 978CE0962B6C56E800C1CB67 /* NDS MapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		978CE09F2B6C56E800C1CB67 /* NDS MapUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 978CE0B02B6C56E800C1CB67 /* Build configuration list for PBXNativeTarget "NDS MapUITests" */;
+			buildPhases = (
+				978CE09C2B6C56E800C1CB67 /* Sources */,
+				978CE09D2B6C56E800C1CB67 /* Frameworks */,
+				978CE09E2B6C56E800C1CB67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				978CE0A22B6C56E800C1CB67 /* PBXTargetDependency */,
+			);
+			name = "NDS MapUITests";
+			productName = "NDS MapUITests";
+			productReference = 978CE0A02B6C56E800C1CB67 /* NDS MapUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		978CE07D2B6C56E500C1CB67 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					978CE0842B6C56E500C1CB67 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					978CE0952B6C56E800C1CB67 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 978CE0842B6C56E500C1CB67;
+					};
+					978CE09F2B6C56E800C1CB67 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 978CE0842B6C56E500C1CB67;
+					};
+				};
+			};
+			buildConfigurationList = 978CE0802B6C56E500C1CB67 /* Build configuration list for PBXProject "NDS Map" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 978CE07C2B6C56E500C1CB67;
+			packageReferences = (
+				978CE0B32B6C579F00C1CB67 /* XCRemoteSwiftPackageReference "azure-maps-ios-sdk-distribution" */,
+			);
+			productRefGroup = 978CE0862B6C56E500C1CB67 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				978CE0842B6C56E500C1CB67 /* NDS Map */,
+				978CE0952B6C56E800C1CB67 /* NDS MapTests */,
+				978CE09F2B6C56E800C1CB67 /* NDS MapUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		978CE0832B6C56E500C1CB67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				978CE0912B6C56E700C1CB67 /* Preview Assets.xcassets in Resources */,
+				978CE08D2B6C56E700C1CB67 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		978CE0942B6C56E800C1CB67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		978CE09E2B6C56E800C1CB67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		978CE0812B6C56E500C1CB67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				978CE08B2B6C56E500C1CB67 /* ContentView.swift in Sources */,
+				978CE0892B6C56E500C1CB67 /* NDS_MapApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		978CE0922B6C56E800C1CB67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				978CE09B2B6C56E800C1CB67 /* NDS_MapTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		978CE09C2B6C56E800C1CB67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				978CE0A52B6C56E800C1CB67 /* NDS_MapUITests.swift in Sources */,
+				978CE0A72B6C56E800C1CB67 /* NDS_MapUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		978CE0982B6C56E800C1CB67 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 978CE0842B6C56E500C1CB67 /* NDS Map */;
+			targetProxy = 978CE0972B6C56E800C1CB67 /* PBXContainerItemProxy */;
+		};
+		978CE0A22B6C56E800C1CB67 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 978CE0842B6C56E500C1CB67 /* NDS Map */;
+			targetProxy = 978CE0A12B6C56E800C1CB67 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		978CE0A82B6C56E800C1CB67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		978CE0A92B6C56E800C1CB67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		978CE0AB2B6C56E800C1CB67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_ENTITLEMENTS = "NDS Map/NDS_Map.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NDS Map/Preview Content\"";
+				DEVELOPMENT_TEAM = 7QAM3LGSSC;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "NDS Map";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.travel";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.neherdata.nds-map.NDS-Map";
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = "com.neherdata.nds-map.NDS-Map-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		978CE0AC2B6C56E800C1CB67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_ENTITLEMENTS = "NDS Map/NDS_Map.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NDS Map/Preview Content\"";
+				DEVELOPMENT_TEAM = 7QAM3LGSSC;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "NDS Map";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.travel";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.neherdata.nds-map.NDS-Map";
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = "com.neherdata.nds-map.NDS-Map-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		978CE0AE2B6C56E800C1CB67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7QAM3LGSSC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.neherdata.nds-map.NDS-MapTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NDS Map.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NDS Map";
+			};
+			name = Debug;
+		};
+		978CE0AF2B6C56E800C1CB67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7QAM3LGSSC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.neherdata.nds-map.NDS-MapTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NDS Map.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NDS Map";
+			};
+			name = Release;
+		};
+		978CE0B12B6C56E800C1CB67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7QAM3LGSSC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.neherdata.nds-map.NDS-MapUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "NDS Map";
+			};
+			name = Debug;
+		};
+		978CE0B22B6C56E800C1CB67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7QAM3LGSSC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.neherdata.nds-map.NDS-MapUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "NDS Map";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		978CE0802B6C56E500C1CB67 /* Build configuration list for PBXProject "NDS Map" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				978CE0A82B6C56E800C1CB67 /* Debug */,
+				978CE0A92B6C56E800C1CB67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		978CE0AA2B6C56E800C1CB67 /* Build configuration list for PBXNativeTarget "NDS Map" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				978CE0AB2B6C56E800C1CB67 /* Debug */,
+				978CE0AC2B6C56E800C1CB67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		978CE0AD2B6C56E800C1CB67 /* Build configuration list for PBXNativeTarget "NDS MapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				978CE0AE2B6C56E800C1CB67 /* Debug */,
+				978CE0AF2B6C56E800C1CB67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		978CE0B02B6C56E800C1CB67 /* Build configuration list for PBXNativeTarget "NDS MapUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				978CE0B12B6C56E800C1CB67 /* Debug */,
+				978CE0B22B6C56E800C1CB67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		978CE0B32B6C579F00C1CB67 /* XCRemoteSwiftPackageReference "azure-maps-ios-sdk-distribution" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Azure/azure-maps-ios-sdk-distribution.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = "1.0.0-pre.3";
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		978CE0B42B6C579F00C1CB67 /* AzureMapsControl */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 978CE0B32B6C579F00C1CB67 /* XCRemoteSwiftPackageReference "azure-maps-ios-sdk-distribution" */;
+			productName = AzureMapsControl;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 978CE07D2B6C56E500C1CB67 /* Project object */;
+}
